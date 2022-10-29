@@ -1,0 +1,127 @@
+.body{
+    max-width: 901px;
+    max-height: 2020px;
+}
+
+/*color*/
+.text-color-black{
+    color: #091133;
+}
+
+
+/**/
+.header{
+    margin-top:120px;
+}
+.nav-link {
+    color: rgba(0, 0, 0, 0.62);
+}
+
+.menu-right {
+    margin-left: 605px;
+}
+.menu-right ul li a {
+    width: 200px;
+}
+
+
+.user-2{
+   margin-left: 216px;
+}
+
+.search-mani-content{
+    margin-top: 116.26px;
+}
+.search-mani-content input{
+    width: 609px;
+    height: 90px;
+    background-color: #fefefe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    text-align: center;
+    border-color: transparent;
+
+}
+.content-main-center{
+    margin-top: 54px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.content-main-center h1{
+    width: 460px;
+    height: 133px;
+    font-weight: 500;
+    line-height: 66px;
+    margin: auto;
+}
+.content-main-center h5{
+    width: 539px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #141719;
+    margin: auto;
+    padding-top: 0px;
+}
+/* .img-content-main{
+
+} */
+.img-content-main img{
+    max-width: 901px;
+    max-height:375px;
+}
+.info-function-main{
+    margin-top: 89px;
+}
+.title-function h1{
+    width: 356px;
+    height: 66px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 66px;
+    margin: auto;   
+}
+.box-function{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 346px;
+    height: 399px;
+    margin-left: 14px;
+}
+.box-function img {
+    padding: 98px 0px 0px 65px;
+}
+.box-function h2{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #454E54;
+    padding-top: 28px;
+}
+/* .some-function-main{
+    margin-left: 45px;
+} */
+
+
+.footer-box{
+    margin-top: 106px;
+    width: 901px;
+    height: 340px;
+    background-image: url(img/image\ 6footer.png);
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .menu-right ul li a{
+        display: flex;
+    }
+} 

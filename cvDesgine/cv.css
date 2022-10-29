@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    background-color: #0000;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    background-color: #00000000;
+}
+.left{
+    flex: 1;
+    border: 1px solid #000;
+}
+.img-name{
+    width: 100%;
+    display: table;
+    align-items: flex-end;
+}
+.img-name::before{
+    box-sizing: initial;
+}
+
+.right{
+    flex: 2;
+    margin-left: 1rem;
+}
+.work-experience-cv{
+    margin-bottom: 1rem ;
+    border: 1px solid #000;
+}
+.education-cv{
+    border: 1px solid #000;
+}
+.footer{
+    margin-top: 10px;
+    background: aqua;
+}
